@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  background-color: lightcyan;
+  width: fit-content;
+  padding: 1rem 5rem;
+  border-radius: 15px;
+  filter: drop-shadow(0 0 0.75rem lightblue);
+  text-align: left;
+}
+.image {
+  border-radius: 100px;
+  margin-right: 2rem;
+}
+.highlight {
+  color: red;
+}
